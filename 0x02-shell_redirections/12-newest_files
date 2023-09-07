@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -lt --group-directories-first | grep -v '/$' | head -n 10 | cut -d ' ' -f 9-
+ls -t1 | head -n 10
